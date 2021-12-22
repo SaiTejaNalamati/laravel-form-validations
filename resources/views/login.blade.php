@@ -1,7 +1,5 @@
 <html>
-    <head>
-    <link rel="stylesheet"  href="css/style.css" />
-    </head>
+    <head></head>
     <body>
         <div class="login">
             <div class="login-triangle"></div>
@@ -22,7 +20,7 @@
               <div id="alert">
                 {{ session('status') }}
              </div>
-              <h2 class="login-footer"><a href="/register">Register Here</a></h2>
+              <h2 class="login-footer"><a href="/register" style="color:red">Register Here</a></h2>
             </form>
           </div>
     </body>
